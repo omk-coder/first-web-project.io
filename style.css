@@ -23,8 +23,7 @@ nav ul li{
     
 }
 nav ul li:hover{
-    background: #f40dc2be;
-    transition: background 0.5s;
+    text-decoration: underline;
 
 }
 a{
@@ -47,6 +46,12 @@ p{
     justify-content: space-around;
  
 }
+.cart {
+    margin-top: 20px;
+    margin-right: 10px;
+    cursor:grab;
+}
+
 .col2{
     flex-basis: 40%;
     min-width: 400px;
@@ -126,7 +131,10 @@ p{
     transition: transform 0.5s;
     margin: 5px;
 }
-
+.demo{
+    width: 220px;
+    height: 250px;
+}
 
 /* i will do the underlined part after words */
 /* .title::after{ */
@@ -141,6 +149,19 @@ p{
     /* transform: translate(-50%);; */
 
 /* } */
+.title::after{
+    content: '';
+    background-color: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 256%;
+    left:50%;
+    transform:  translate(-50%);
+    
+    ;
+}
 h4{
     color: #555;
     font-weight: normal;
@@ -163,6 +184,7 @@ h4{
     margin-top: 80px;
     padding: 50px 0;
 }
+
 
 .col-2 .offer-img{
     padding: 50px;
