@@ -156,7 +156,7 @@ p{
     height: 5px;
     border-radius: 5px;
     position: absolute;
-    top: 256%;
+    top: 233%;
     left:50%;
     transform:  translate(-50%);
 }
